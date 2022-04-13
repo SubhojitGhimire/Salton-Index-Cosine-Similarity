@@ -17,7 +17,7 @@ def findUnconnected (list, numOfNodes):
     unconnectedList.remove ([])
     return (unconnectedList)
 
-def saltonList (GG):
+def salton_index (GG):
     edges = nx.edges (GG)
     numOfNodes = GG.number_of_nodes()
     list = [[]]
@@ -69,7 +69,7 @@ print ("GRAPH EDGE SET:")
 print (edges)
 
 # SALTON INDEX (COSINE SIMILARITY)
-preds = saltonList (GG)
+preds = salton_index (GG)
 print ("\nSALTON INDEX")
 for ii in preds:
     print ("(", ii [0], ", ", ii [1], ") = ", round (ii [2], 3))
