@@ -14,7 +14,7 @@ This formula was taken from the site: https://cran.r-project.org/web/packages/li
 
 # UNDERSTANDING THE CODE
 
-The included code file "saltonIndex.py" is an attempt to recreate Similarity Index Function available in NetworkX Library. The networkX library has all the other major similarity index function like Adamic-Adar Index (nx.adamic_adar_index (Graph)), Jaccard Coefficient (nx.jaccard_coefficient (Graph)), Preferential Attachment (nx.preferential_attachment (Graph)), Resource Allocation Index (nx.resource_allocation_index (Graph)) etc.
+The included code file "saltonIndex.py" is an attempt to recreate Similarity Index Function unavailable in NetworkX Library. The networkX library has all the other major similarity index function like Adamic-Adar Index (nx.adamic_adar_index (Graph)), Jaccard Coefficient (nx.jaccard_coefficient (Graph)), Preferential Attachment (nx.preferential_attachment (Graph)), Resource Allocation Index (nx.resource_allocation_index (Graph)) etc.
 
 Just like these networkx functions, this saltonIndex.py code also has the prime function which takes the parameter Graph in the form salton_index (Graph).
 
